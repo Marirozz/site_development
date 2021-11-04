@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Development</title>
+    <link rel="preload" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Krub&display=swap" rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="titulo">Development and More <span>The Magic of Creating</span></h1>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#head">Home</a>
+            <a href="#designs">About</a>
+            <a href="#formulario">Contacto</a>
+        </nav>
+    </div>
+
+    <section class="hero">
+        <div class="contenido-hero">
+            <h2>"Inspiration is the seed, design is the flower." <span> ― Michael Langham  </span></h2>
+
+            <div class="ubicacion">
+
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172"
+                    style=" fill:#000000;">
+                    <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                        stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+                        font-family="none" font-weight="none" font-size="none" text-anchor="none"
+                        style="mix-blend-mode: normal">
+                        <path d="M0,172v-172h172v172z" fill="none"></path>
+                        <g fill="#f1c40f">
+                            <path
+                                d="M97.32448,4.56144c-3.66704,-0.7224 -7.4476,-1.12144 -11.32448,-1.12144c-16.2024,0 -30.8912,6.6392 -41.4864,17.3376l23.8048,19.23648zM63.9668,45.33232l-23.994,-19.36032c-7.8088,9.9072 -12.4528,22.4288 -12.4528,35.948c0,7.84664 1.55488,15.43528 4.48576,22.47696zM77.77152,39.32608c2.5628,-0.93912 5.31824,-1.48608 8.22848,-1.48608c13.3128,0 24.08,10.7672 24.08,24.08c0,1.16272 -0.11008,2.29448 -0.26832,3.41248l26.73568,-32.67656c-7.07952,-12.17416 -18.39712,-21.56192 -31.9404,-26.1268zM94.05304,84.59304c-2.52152,0.8944 -5.22536,1.40696 -8.05304,1.40696c-13.3128,0 -24.08,-10.7672 -24.08,-24.08c0,-1.21776 0.11696,-2.408 0.28896,-3.57416l-26.84232,32.80728c1.32784,2.29104 2.78296,4.5236 4.43416,6.64608c1.2728,1.72 2.9928,3.9216 4.988,6.5016c4.35848,5.61752 10.17896,13.12704 15.7896,21.20416zM64.59632,131.4596c7.16208,10.95296 13.25088,22.34968 14.35168,31.1492c0.4816,3.4056 3.4056,5.9512 6.8456,5.9512c3.5088,0 6.4328,-2.58 6.8456,-6.02c2.0984,-16.6152 22.6008,-42.9312 33.6432,-57.104c1.9264,-2.4768 3.612,-4.644 5.16,-6.6736c8.3936,-10.3888 13.0376,-23.4608 13.0376,-36.8424c0,-7.98768 -1.62024,-15.60384 -4.53736,-22.5492z">
+                            </path>
+                        </g>
+                    </g>
+                </svg>
+                <p> Santiago de los Caballeros, Republica Dominicana</p>
+            </div>
+
+
+
+            <a class="boton" href="#formulario">Contact Us</a>
+        </div>
+    </section>
+
+
+    <main class="contenedor sombra">
+
+        <h2>What is it?</h2>
+
+        <div id="designs" class="designs">
+            <section class="design">
+                <h3> <strong>Desktop App</strong> </h3>
+                <div class="iconos">
+                    <img src="https://img.icons8.com/ios/50/000000/page-down-button.png"/>
+                </div>
+                <p>It is one that depends on software that is installed directly on the workstation of each person who needs to use the system. Typically, computers are connected via the Internet to a database.</p>
+            </section>
+
+            <section class="design">
+                <h3><strong>Web Application </strong></h3>
+
+                <div class="iconos">
+                    <img src="https://img.icons8.com/material-sharp/50/000000/web-design.png"/>
+              </div>
+
+                    <p>It is a special web page, which has information on which you can interact and even change. The difference with desktop applications is that it is not installed or run on your computer, but through a browser.</p>
+            </section>
+
+            <section class="design">
+                <h3> <strong>Web Page</strong></h3>
+
+                <div class="iconos">
+                    <img src="https://img.icons8.com/ios/50/000000/web.png"/>
+                
+                </div>
+                    <p>It is a document that can be accessed through a browser. The information on web pages is normally static.</p>
+            </section>
+        </div>
+        <!--CIERRE DE designS-->
+
+    </main>
+
+    <section>
+        <h2>Contacto</h2>
+
+        <form id="formulario" class="formulario">
+            <fieldset>
+                <legend> Contactanos llenando todos los campos</legend>
+            <div class="contenedor-campo"> <!--Contiene todos los campos -->
+                <div class="campo">
+                    <label for="nombre">Nombre</label>
+                    <input class="input-text" id="nombre" type="text" placeholder="Tu nombre">
+                </div>
+
+                <div class="campo">
+                    <label for="telefono">Telefono</label>
+                    <input class="input-text" id="telefono" type="tel" placeholder="Tu telefono">
+                </div>
+
+                <div class="campo">
+                    <label for="email">Correo</label>
+                    <input class="input-text" id="email" type="email" placeholder="Tu email">
+                </div>
+
+                <div class="campo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea  class="input-text" name="" id="mensaje" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+                <div class="alinear-derecha flex">
+                    <input class="boton w-100" type="submit" value="Enviar">
+                </div>
+           
+            </fieldset>
+
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p> <b>Todos los derechos reservados. Mariana Rodríguez</b> </p>
+    </footer>
+
+</body>
+
+</html>
